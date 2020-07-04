@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'loginApp.dart';
-//import 'teste.dart';
+import 'page_card.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, 
-      home: LoginApp(),
+      home: CardNubank(),
     );
   }
 }
